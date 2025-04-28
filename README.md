@@ -109,16 +109,24 @@ or
 
 •linux:/> nclaunch& // On subsequent calls to NCVERILOG 
 
+![WhatsApp Image 2025-04-28 at 17 11 39_555b5f47](https://github.com/user-attachments/assets/6df6e732-b7a2-4823-931e-b703e28d9f3d)
+
 
 It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple Step .
 
 ### Fig 3: Setting Multi-step simulation
+
+![WhatsApp Image 2025-04-28 at 17 02 54_7071cc64](https://github.com/user-attachments/assets/c054c6be-7e5e-4093-9dc1-95e71d8d7d5d)
+
 
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure 
 
 Click the cds.lib file and save the file by clicking on Save option 
 
 ### Fig 4:cds.lib file Creation
+
+![WhatsApp Image 2025-04-28 at 17 03 18_686def2a](https://github.com/user-attachments/assets/355d95aa-2ceb-4a49-a097-368f72b13691)
+
 
 Save cds.lib file and select the correct option for cds.lib file format based on the HDL Language and Libraries used. 
 
@@ -132,6 +140,9 @@ A Click “OK” in the “nclaunch: Open Design Directory” window as shown in
 
 ### Fig 5: Selection of Don’t include any libraries
 
+![WhatsApp Image 2025-04-28 at 17 03 18_686def2a](https://github.com/user-attachments/assets/8865f15c-c617-4706-b959-89880f2b82ba)
+
+
 A ‘NCLaunch window’ appears as shown in figure below
 
 Left side you can see the HDL files. Right side of the window has worklib and snapshots directories listed. 
@@ -141,6 +152,9 @@ Worklib is the directory where all the compiled codes are stored while Snapshot 
 To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation. 
 
 ### Fig 6: Nclaunch Window
+
+![WhatsApp Image 2025-04-28 at 17 03 27_4c6d1169](https://github.com/user-attachments/assets/37047427-1a58-4d30-98d2-ca4c8eb810c4)
+
 
 ## Step 1: Compilation:
 
@@ -165,6 +179,9 @@ Left side select the file and in Tools : launch verilog compiler with current se
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation 
 
 ### Fig 7: Compiled database in worklib
+
+![WhatsApp Image 2025-04-28 at 17 03 42_d9dc0ee4](https://github.com/user-attachments/assets/cbad9aba-fd2d-4450-86bf-a066e73f67bd)
+
 
 After compilation it will come under worklib you can see in right side window
 
@@ -200,6 +217,9 @@ After elaboration the file will come under snapshot. Select the test bench and s
 
 ## Fig 8: Elaboration Launch Option
 
+![WhatsApp Image 2025-04-28 at 17 03 59_0907d457](https://github.com/user-attachments/assets/b00660ec-4ac7-4e43-8b1c-37a4b638cf2f)
+
+
 ## Step 3: Simulation: 
 
 – Simulate with the given test vectors over a period of time to observe the output behaviour. 
@@ -214,9 +234,18 @@ Steps for simulation – Run the simulation command with simulator options
 
 ## Fig 9: Design Browser window for simulation
 
+![WhatsApp Image 2025-04-28 at 17 05 01_d500dc85](https://github.com/user-attachments/assets/a9888306-4f42-4465-9fc7-b22944b30e0a)
+
+
 ## Fig 10:Simulation Waveform Window
 
+![image](https://github.com/user-attachments/assets/6e7c150f-4fff-4d1a-9144-e872dde22a6d)
+
+
 ## Fig 11:Simulation Waveform Window
+
+![WhatsApp Image 2025-04-28 at 17 04 36_4110dcf3](https://github.com/user-attachments/assets/a588ba58-c596-476a-83c7-7ea683eacbb7)
+
 
 ### Result
 
